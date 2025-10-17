@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Innov83Dprint - Professional 3D printing and fabrication services. Discover our comprehensive range of high-quality products designed to meet your business needs.">
+    <meta name="keywords" content="3D printing, fabrication, business products, professional solutions, product showcase">
+    <title>Innov8_3Dprint</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="icon" href="https://raw.githubusercontent.com/CalKK/innov83Dprint/main/gallery/favicon.jpeg" type="image/png">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="https://raw.githubusercontent.com/CalKK/innov83Dprint/main/gallery/INNOV8_3DPRINT.jpeg" alt="innov8_3dprint">
+                <h2>Innov8_3Dprint</h2>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <div class="nav-dropdown">
+                    <a href="#products" class="nav-link">Products</a>
+                    <div class="dropdown-content">
+                        <div class="dropdown-category">
+                            <div class="dropdown-item has-submenu">
+                                <a href="#action-figures">Action Figures</a>
+                                <div class="submenu">
+                                    <a href="action-figures-dc.html">DC</a>
+                                    <a href="action-figures-marvel.html">Marvel</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dropdown-category">
+                            <a href="halloween.html" class="dropdown-item">Halloween</a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#testimonials" class="nav-link">Testimonials</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <a href="#contact" class="nav-cta">Get Quote</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-video">
+            <iframe src="https://www.youtube.com/embed/0IqEEskz66Y?autoplay=1&mute=1&loop=1&playlist=0IqEEskz66Y&controls=0&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1" 
+                    frameborder="0" 
+                    allow="autoplay; encrypted-media" 
+                    allowfullscreen>
+            </iframe>
+            <div class="video-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">Transform Your Ideas with <span class="highlight">Professional 3D Printing</span></h1>
+            <p class="hero-subtitle">Discover our comprehensive range of 3D printing services designed to bring your concepts to life with precision and quality.</p>
+            <div class="hero-cta">
+                <a href="#products" class="btn btn-primary">View Our Work</a>
+                <a href="#contact" class="btn btn-secondary">Get Quote</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Choose Innov83Dprint</h2>
+                <p>We deliver excellence through innovation, quality, and unmatched customer service</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                            <path d="m2 17 10 5 10-5"/>
+                            <path d="m2 12 10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h3>Premium Quality</h3>
+                    <p>Every product undergoes rigorous quality testing to ensure exceptional performance and reliability.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="m9 12 2 2 4-4"/>
+                        </svg>
+                    </div>
+                    <h3>Expert Support</h3>
+                    <p>Our dedicated team provides comprehensive support from initial consultation to project completion.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+                        </svg>
+                    </div>
+                    <h3>Fast Delivery</h3>
+                    <p>Streamlined processes ensure quick turnaround times without compromising on quality or precision.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="product-preview">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Product Gallery</h2>
+                <p>Explore our portfolio of 3D printed products and fabrication work</p>
+            </div>
+            <div class="products-grid" id="products-grid">
+                <!-- Initial 6 products visible by default -->
+                <div class="product-card">
+                    <div class="product-image" data-description="High-precision prototypes for product development and testing">
+                        <img src="https://raw.githubusercontent.com/CalKK/innov83Dprint/main/gallery/sinewave.jpeg" alt="sinewave">
+                        <div class="product-tooltip">We crafted a custom sine wave trophy for a PhD graduate in Electrical & Electronics Engineering!</div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image" data-description="Detailed scale models for architectural visualization and presentation">
+                        <img src="https://raw.githubusercontent.com/CalKK/innov83Dprint/main/gallery/pikachu.jpeg" alt="pikachu">
+                        <div class="product-tooltip">Pikachu to electrify your desk!</div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image" data-description="Replacement parts and custom components for various applications">
+                        <img src="https://raw.githubusercontent.com/CalKK/innov83Dprint/main/gallery/gojo pen holder.jpeg" alt="gojo pen holder">
+                        <div class="product-tooltip">Gojo pen holder for your desk!</div>
+                    </div>
+                </div>
+               <!-- <div class="product-card">
+                    <div class="product-image" data-description="Custom decorative pieces and artistic creations">
+                        <img src="https://images.pexels.com/photos/3184306/pexels-photo-3184306.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Decorative Items">
+                        <div class="product-tooltip">Custom decorative pieces and artistic creations</div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image" data-description="Custom tools and fixtures designed for specific applications">
+                        <img src="https://images.pexels.com/photos/3184317/pexels-photo-3184317.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Functional Tools">
+                        <div class="product-tooltip">Custom tools and fixtures designed for specific applications</div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image" data-description="Learning aids and educational models for schools and training">
+                        <img src="https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Educational Models">
+                        <div class="product-tooltip">Learning aids and educational models for schools and training</div>
+                    </div>
+                </div> -->
+                
+                <!-- Hidden products that will be shown when "View More" is clicked -->
+                <div class="product-card hidden-product">
+                    <div class="product-image" data-description="Anatomical models and medical device prototypes">
+                        <img src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Medical Models">
+                        <div class="product-tooltip">Anatomical models and medical device prototypes</div>
+                    </div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-image" data-description="Custom jewelry pieces and fashion accessories">
+                        <img src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Jewelry Pieces">
+                        <div class="product-tooltip">Custom jewelry pieces and fashion accessories</div>
+                    </div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-image" data-description="Detailed miniature figures and collectibles">
+                        <img src="https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Miniatures">
+                        <div class="product-tooltip">Detailed miniature figures and collectibles</div>
+                    </div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-image" data-description="Heavy-duty industrial parts and machinery components">
+                        <img src="https://images.pexels.com/photos/3183156/pexels-photo-3183156.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Industrial Parts">
+                        <div class="product-tooltip">Heavy-duty industrial parts and machinery components</div>
+                    </div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-image" data-description="Unique art pieces and sculptural works">
+                        <img src="https://images.pexels.com/photos/3183159/pexels-photo-3183159.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Art Pieces">
+                        <div class="product-tooltip">Unique art pieces and sculptural works</div>
+                    </div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-image" data-description="Custom gaming pieces and tabletop accessories">
+                        <img src="https://images.pexels.com/photos/3183162/pexels-photo-3183162.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Gaming Accessories">
+                        <div class="product-tooltip">Custom gaming pieces and tabletop accessories</div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-cta">
+                <button id="view-more-btn" class="btn btn-primary">View More Products</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="company-story">
+        <div class="container">
+            <div class="story-grid">
+                <div class="story-content">
+                    <h2>About Innov8_3Dprint</h2>
+                    <p class="lead">Founded with a passion for innovation and precision, Innov8_3Dprint has emerged as a leading provider of 3D printing and fabrication services in Kenya.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission & Values -->
+    <section class="mission-values">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Values</h2>
+                <p>The principles that guide our work and relationships</p>
+            </div>
+            <div class="values-grid">
+                <div class="value-card">
+                    <div class="value-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                            <path d="m2 17 10 5 10-5"/>
+                            <path d="m2 12 10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h3>Excellence</h3>
+                    <p>We maintain the highest standards in every project, from design to final delivery.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20 7h-9"/>
+                            <path d="M14 17H5"/>
+                            <circle cx="17" cy="17" r="3"/>
+                            <circle cx="7" cy="7" r="3"/>
+                        </svg>
+                    </div>
+                    <h3>Innovation</h3>
+                    <p>We continuously explore new technologies and methods to deliver cutting-edge solutions.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                            <circle cx="9" cy="7" r="4"/>
+                            <path d="m22 21-3-3"/>
+                        </svg>
+                    </div>
+                    <h3>Partnership</h3>
+                    <p>We build lasting relationships with our clients, serving as trusted advisors and collaborators.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials-carousel">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Clients Say</h2>
+                <p>Real feedback from satisfied customers</p>
+            </div>
+            <div class="carousel-wrapper">
+                <div class="carousel-track" id="testimonials-track">
+                    <div class="testimonial-slide active">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">
+                                <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
+                                    <path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z" fill="currentColor"/>
+                                    <path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z" fill="currentColor"/>
+                                </svg>
+                            </div>
+                            <p class="testimonial-text">"Innov8_3Dprint delivered exceptional quality on my ironman & batman projects. Their attention to detail and professional service exceeded our expectations. Highly recommended!"</p>
+                            <div class="author-info">
+                                <h4>Trevor Ayimba</h4>
+                                <p>Content Creator & Influencer</p>
+                            </div>
+                        </div>
+                    </div>
+                   <!-- <div class="testimonial-slide">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">
+                                <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
+                                    <path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z" fill="currentColor"/>
+                                    <path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z" fill="currentColor"/>
+                                </svg>
+                            </div>
+                            <p class="testimonial-text">"The custom prototypes I received were perfect!"</p>
+                            <div class="author-info">
+                                <h4>Rehema Manuella</h4>
+                                <p>Strathmore University Student</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-slide">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">
+                                <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
+                                    <path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z" fill="currentColor"/>
+                                    <path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z" fill="currentColor"/>
+                                </svg>
+                            </div>
+                            <p class="testimonial-text">"Outstanding service and quality work."</p>
+                            <div class="author-info">
+                                <h4>Charles Maina</h4>
+                                <p>Strathmore University Student</p>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <div class="carousel-controls">
+                    <button class="carousel-btn prev" id="prev-btn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="15,18 9,12 15,6"/>
+                        </svg>
+                    </button>
+                    <div class="carousel-indicators" id="carousel-indicators">
+                        <span class="indicator active" data-slide="0"></span>
+                        <span class="indicator" data-slide="1"></span>
+                        <span class="indicator" data-slide="2"></span>
+                    </div>
+                    <button class="carousel-btn next" id="next-btn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="9,18 15,12 9,6"/>
+                        </svg>
+                    </button>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <p>Ready to bring your ideas to life? Let's discuss your design</p>
+            </div>
+            <div class="contact-content">
+                <h3>Let's Start a Conversation</h3>
+                <p class="lead">Whether you need a prototype, custom parts, or have a unique project in mind, our team is ready to help make it happen.</p>
+                
+                <div class="contact-methods">
+                    <div class="contact-method">
+                        <div class="method-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                        </div>
+                        <div class="method-details">
+                            <h4>Email Us</h4>
+                            <p><a href="mailto:afterlifebatteries@gmail.com" style="color: var(--primary); text-decoration: none;">afterlifebatteries@gmail.com</a></p>
+                            <span>We'll respond within 24 hours</span>
+                        </div>
+                    </div>
+                    <div class="contact-method">
+                        <div class="method-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                        </div>
+                        <div class="method-details">
+                            <h4>Call or Text us</h4>
+                            <p><a href="https://wa.me/254714248747" target="_blank" style="color: var(--primary); text-decoration: none;">+254 (0) 714248747</a></p>
+                            <span>Mon-Sat, 9 AM - 6 PM EAT</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Transform Your Ideas?</h2>
+                <p>Join hundreds of satisfied customers who trust Innov83Dprint for their 3D printing needs</p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn btn-white">Get Started Today</a>
+                    <a href="tel:+254714248747" class="btn btn-outline-white">Call Us Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section footer-brand">
+                    <div class="footer-logo">
+                        <img src="https://raw.githubusercontent.com/CalKK/innov83Dprint/main/gallery/INNOV8_3DPRINT.jpeg" alt="Innov8_3Dprint">
+                        <h3>Innov8_3Dprint</h3>
+                    </div>
+                    <p>Transforming ideas into reality with precision 3D printing and fabrication services.</p>
+                    <div class="social-icons">
+                        <a href="https://whatsapp.com/channel/0029VbBMHA50rGiOO7BfVl2T" aria-label="WhatsApp" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/innov8_3dprint?igsh=dmlhOWJqaTM2bjgw" aria-label="Instagram" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#products">3D Printing</a></li>
+                        <li><a href="#products">Prototyping</a></li>
+                        <li><a href="#products">Custom Fabrication</a></li>
+                        <li><a href="#products">Design Services</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Get In Touch</h4>
+                    <ul class="contact-info">
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:afterlifebatteries@gmail.com">afterlifebatteries@gmail.com</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <a href="https://wa.me/254714248747" target="_blank">+254 (0) 714248747</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-clock"></i>
+                            <span>Mon-Sat: 9 AM - 6 PM EAT</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-divider"></div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Innov8_3Dprint. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <span class="separator">•</span>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
